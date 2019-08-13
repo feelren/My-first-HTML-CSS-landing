@@ -68,6 +68,9 @@ header {
 .phototext {
 	position: relative;
 }
+.phototext img {
+	width: 100%;
+}
 .phototext div {
 	position: absolute;
 	color: white;
@@ -90,7 +93,6 @@ header {
 	letter-spacing: 5px;
 }
 .wrapper {
-	overflow: hidden;
-	margin:0 auto;
 	max-width: 93.6%;
+	margin:0 auto;
 }
