@@ -10,7 +10,7 @@ html {
 	background-color: #fff;
 }
 .wrapper_head {
-	max-width: 1532px;
+	max-width: 93.6%;
 	margin:0 auto;
 }
 .main_header {
@@ -67,7 +67,6 @@ header {
 }
 .phototext {
 	position: relative;
-	max-height: 580px;
 }
 .phototext div {
 	position: absolute;
@@ -93,5 +92,5 @@ header {
 .wrapper {
 	overflow: hidden;
 	margin:0 auto;
-	max-width: 1530px;
+	max-width: 93.6%;
 }
