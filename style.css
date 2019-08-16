@@ -2,53 +2,48 @@
 	margin: 0;
 	padding: 0;
 }
-body {
+a {
+	text-decoration: none;
 	color: #fff;
-	font-family: 'Lexend Mega', sans-serif;
-}
-li {
-	list-style: none;
 }
 header {
-	background-color: #3a5795;
 	width: 100%;
+	background-color: #212429; 
 }
 .header__container {
-	margin: 0 auto;
-	width: 70%;
 	display: flex;
-	align-items: center;
 	justify-content: space-between;
-}
-.header__container-nav ul {
-	display: flex;
-}
-body {
-	font-size: sans-serif;
-}
-.nav-item {
-	margin-right: 20px;
-}
-.burger-menu {
-	display: none;
-}
+	width: 93.6%;
+	margin: 0 auto;
+	align-items: center;
 
+}
+.header__container-burgericon i {
+	color: #fff;
+	border-right: 1px solid #3c3c3c;
+	border-left: 1px solid #3c3c3c;
+	padding: 20px;
 
-
-
-
-@media screen and (max-width: 1080px) {
-	.header__container {
-		width: 90%;
-	}
-	.nav-item {
-		display: none;
-	}
-	.burger-menu {
-		display: block;
-		font-size: 10vw;
-	}
-	.header__container-logo {
-		font-size: 3vw;
-	}
+}
+.header__container-nav a {
+	border-right: 1px solid #3c3c3c;
+	padding: 20px;
+}
+.header__container-nav a:nth-child(1) {
+	border-left: 1px solid #3c3c3c;
+}
+.header__container-logo {
+	margin-left: 14%;
+}
+.wrapper {
+	width: 93.6%;
+	margin: 0 auto;
+}
+.topphoto__background {
+	width: 100%;
+	background:linear-gradient(to bottom, #212429 50%,white 50%);
+	;
+}
+.topphoto img {
+	width: 100%;
 }
