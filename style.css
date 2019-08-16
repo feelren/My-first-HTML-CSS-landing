@@ -40,9 +40,9 @@ header {
 	margin: 0 auto;
 }
 .topphoto__background {
+	height: 100%;
 	width: 100%;
 	background:linear-gradient(to bottom, #212429 50%,white 50%);
-	;
 }
 .topphoto img {
 	width: 100%;
