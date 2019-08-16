@@ -6,6 +6,9 @@ a {
 	text-decoration: none;
 	color: #fff;
 }
+body {
+	background-color: gray;
+}
 header {
 	width: 100%;
 	background-color: #212429; 
@@ -13,7 +16,7 @@ header {
 .header__container {
 	display: flex;
 	justify-content: space-between;
-	width: 93.6%;
+	max-width: 1530px;
 	margin: 0 auto;
 	align-items: center;
 
@@ -23,7 +26,9 @@ header {
 	border-right: 1px solid #3c3c3c;
 	border-left: 1px solid #3c3c3c;
 	padding: 20px;
-
+}
+.header__container-nav {
+	display: flex;
 }
 .header__container-nav a {
 	border-right: 1px solid #3c3c3c;
@@ -36,14 +41,13 @@ header {
 	margin-left: 14%;
 }
 .wrapper {
-	width: 93.6%;
+	width: 1530px;
 	margin: 0 auto;
 }
 .topphoto__background {
-	height: 100%;
 	width: 100%;
 	background:linear-gradient(to bottom, #212429 50%,white 50%);
 }
 .topphoto img {
-	width: 100%;
+
 }
