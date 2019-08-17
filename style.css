@@ -49,5 +49,5 @@ header {
 	background:linear-gradient(to bottom, #212429 50%,white 50%);
 }
 .topphoto img {
-
+	display: block;
 }
