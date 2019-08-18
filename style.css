@@ -7,7 +7,7 @@ a {
 	color: #fff;
 }
 body {
-	background-color: gray;
+	background-color: #f9f9fb;
 }
 header {
 	width: 100%;
@@ -46,8 +46,63 @@ header {
 }
 .topphoto__background {
 	width: 100%;
-	background:linear-gradient(to bottom, #212429 50%,white 50%);
+	background:linear-gradient(to bottom, #212429 50%,#f9f9fb 50%);
 }
 .topphoto img {
 	display: block;
+}
+.topphoto {
+	position: relative;
+	color: #fff;
+}
+.topphoto__textblock {
+	position: absolute;
+	top:225px;
+	left: 6.2%;
+	font-family: 'Hind', sans-serif;
+}
+.topphoto__textblock p {
+	font-size: 18px;
+	letter-spacing: 4px;
+	margin-bottom: 15px;
+	font-weight: 600;
+}
+.topphoto__textblock h1 {
+	font-weight: 700;
+	line-height: 50px;
+	font-size: 40px;
+	letter-spacing: 5.5px;
+}
+.signup_form {
+	padding: 30px;
+	display: flex;
+	justify-content: space-between;
+	background-color: #f7f7f7;
+}
+.signup_form p {
+	font-family: 'Montserrat', sans-serif;
+	line-height: 28px;
+	font-size: 20px;
+	letter-spacing: 6px;
+}
+.signup_form input {
+	height: 50px;
+	font-family: 'Hind', sans-serif;
+	border:none;
+}
+input[type="text"] {
+	width: 449px;
+	padding-left: 34px;
+	font-weight: 400;
+	font-size: 15px;
+	letter-spacing: 2px;
+	box-sizing: border-box;
+}
+input[type="submit"] {
+	width: 280px;
+	font-weight: 500;
+	background-color: #000;
+	color: #fff;
+	letter-spacing: 4px;
+	font-size: 14px;
 }
