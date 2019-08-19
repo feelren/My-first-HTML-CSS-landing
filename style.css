@@ -106,6 +106,7 @@ input[type="submit"] {
 	color: #fff;
 	letter-spacing: 4px;
 	font-size: 14px;
+	cursor: pointer;
 }
 
 
@@ -162,17 +163,11 @@ input[type="submit"] {
 		display: none;
 	}
 	.signup_form input {
-		width: 45%;
+		width: 75%;
 	}
 }
 @media screen and (max-width:768px) {
-	.header__container-burgericon i {
-		font-size: 35px;
-	}
-	.header__container-nav a {
-		font-size: 20px;
-		padding: 17px;
-	}
+
 }
 @media screen and (max-width:590px) {
 	.header__container-nav {
@@ -182,5 +177,30 @@ input[type="submit"] {
 		margin-left: auto;
 		margin-right: auto;
 	}
-	
+	.topphoto__textblock h1 {
+		font-size: 25px;
+		letter-spacing: 2px;
+		line-height: 1.2;
+	}
+}
+@media screen and (max-width:390px) {
+	.topphoto__textblock h1 {
+		font-size: smaller;
+	}
+	.topphoto__textblock p {
+		font-size: 10px;
+	}
+	.topphoto__textblock {
+		padding: 50px 25px;
+	}
+	.signup_form p {
+		font-size: 15px;
+	}
+	.header__container-burgericon i {
+	font-size: 35px;
+	padding: 2px 5px;
+	}
+}
+@media screen and (max-width:320px) {
+
 }
