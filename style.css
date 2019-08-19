@@ -76,7 +76,6 @@ header {
 	display: flex;
 	justify-content: space-between;
 	background-color: #f7f7f7;
-	flex-wrap: wrap;
 }
 .signup_form p {
 	font-family: 'Montserrat', sans-serif;
@@ -90,7 +89,7 @@ header {
 	border:none;
 }
 input[type="text"] {
-	width: 449px;
+	width: 30%;
 	padding-left: 34px;
 	font-weight: 400;
 	font-size: 15px;
@@ -108,10 +107,58 @@ input[type="submit"] {
 
 
 
+@media screen and (max-width:1500px) {
 
-@media screen and (max-width:768px) {
-
+}
+@media screen and (max-width:1366px) {
+	header {
+		font-size: 15px;
+	}
 	.topphoto__textblock {
 		padding: 110px 50px;
+	}
+	.topphoto__textblock p {
+		font-size: smaller;
+	}
+	.topphoto__textblock h1 {
+		font-size: 30px;
+		line-height: 35px;
+	}
+	.header__container-burgericon i {
+		padding: 10px;
+	}
+	.header__container-nav a {
+		padding: 10px;
+	}
+	.signup_form p {
+		letter-spacing: 3px;
+	}
+}
+
+@media screen and (max-width:1298px) {
+	input[type="text"] {
+		width: 25%;
+		padding-left: 10px;
+	}
+}
+
+@media screen and (max-width:1080px) {
+	input[type="submit"] {
+		width: 180px;
+	}
+}
+@media screen and (max-width:858px) {
+	.signup_form {
+		flex-direction: column;
+		justify-content: center;
+	}
+	.signup_form * {
+		margin:10px auto;
+	}
+	.signup_form br {
+		display: none;
+	}
+	.signup_form input {
+		width: 45%;
 	}
 }
