@@ -176,7 +176,7 @@ input[type="submit"] {
 		line-height: 1.2;
 	}
 }
-@media screen and (max-width:390px) {
+@media screen and (max-width:414px) {
 	.topphoto__textblock h1 {
 		font-size: smaller;
 	}
