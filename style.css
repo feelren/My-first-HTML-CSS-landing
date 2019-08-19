@@ -124,6 +124,9 @@ input[type="submit"] {
 		margin-right: 40%;
 	}
 	.header__container-burgericon {
-		font-size: 30px;
+		font-size: 8vw;
+	}
+	.header__container-burgericon i {
+		padding: 5px;
 	}
 }
