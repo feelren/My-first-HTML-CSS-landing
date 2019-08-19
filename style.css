@@ -120,4 +120,7 @@ input[type="submit"] {
 	.header__container-logo {
 		margin-right: 40%;
 	}
+	.header__container-burgericon {
+		font-size: 50px;
+	}
 }
