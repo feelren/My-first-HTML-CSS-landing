@@ -137,4 +137,15 @@ input[type="submit"] {
 	.topphoto img {
 		width: 100vw;
 	}
+	.topphoto__textblock {
+		top: 30%;
+		left: 3vw;
+	}
+	.topphoto__textblock h1 {
+		font-size: 3vw;
+		letter-spacing: 0.5vw;
+	}
+	.topphoto__textblock p {
+		font-size: 2vw;
+	}
 }
