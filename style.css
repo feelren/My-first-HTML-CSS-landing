@@ -111,9 +111,7 @@ input[type="submit"] {
 
 
 
-@media screen and (max-width:1500px) {
 
-}
 @media screen and (max-width:1366px) {
 	header {
 		font-size: 15px;
@@ -138,14 +136,12 @@ input[type="submit"] {
 		letter-spacing: 3px;
 	}
 }
-
 @media screen and (max-width:1298px) {
 	input[type="text"] {
 		width: 25%;
 		padding-left: 10px;
 	}
 }
-
 @media screen and (max-width:1080px) {
 	input[type="submit"] {
 		width: 180px;
@@ -165,9 +161,6 @@ input[type="submit"] {
 	.signup_form input {
 		width: 75%;
 	}
-}
-@media screen and (max-width:768px) {
-
 }
 @media screen and (max-width:590px) {
 	.header__container-nav {
@@ -200,7 +193,4 @@ input[type="submit"] {
 	font-size: 35px;
 	padding: 2px 5px;
 	}
-}
-@media screen and (max-width:320px) {
-
 }
