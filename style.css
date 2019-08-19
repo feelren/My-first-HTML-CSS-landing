@@ -135,6 +135,6 @@ input[type="submit"] {
 		display: block;
 	}
 	.topphoto img {
-		width: 1080px;
+		width: 100vw;
 	}
 }
