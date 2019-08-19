@@ -112,40 +112,6 @@ input[type="submit"] {
 
 
 
+@media screen and (max-width:768px) {
 
-@media screen and (max-width:1080px) {
-	main {
-		overflow: hidden;
-	}
-	.header__container-nav {
-		display: none;
-	}
-	.header__container-logo {
-		margin-left: 0;
-		margin-right: 25vw;
-	}
-	.header__container-logo img {
-		width: 40vw;
-	}
-	.header__container-burgericon {
-		font-size: 8vw;
-	}
-	.header__container-burgericon i {
-		padding: 5px 15px;
-		display: block;
-	}
-	.topphoto img {
-		width: 100vw;
-	}
-	.topphoto__textblock {
-		top: 30%;
-		left: 3vw;
-	}
-	.topphoto__textblock h1 {
-		font-size: 3vw;
-		letter-spacing: 0.5vw;
-	}
-	.topphoto__textblock p {
-		font-size: 2vw;
-	}
 }
