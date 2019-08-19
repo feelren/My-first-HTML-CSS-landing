@@ -114,6 +114,9 @@ input[type="submit"] {
 
 
 @media screen and (max-width:1080px) {
+	main {
+		overflow: hidden;
+	}
 	.header__container-nav {
 		display: none;
 	}
@@ -121,6 +124,6 @@ input[type="submit"] {
 		margin-right: 40%;
 	}
 	.header__container-burgericon {
-		font-size: 50px;
+		font-size: 30px;
 	}
 }
