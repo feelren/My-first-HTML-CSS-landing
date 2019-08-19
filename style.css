@@ -41,25 +41,23 @@ header {
 	margin-left: 14%;
 }
 .wrapper {
-	width: 1530px;
+	max-width: 1530px;
 	margin: 0 auto;
 }
 .topphoto__background {
-	width: 100%;
 	background:linear-gradient(to bottom, #212429 50%,#f9f9fb 50%);
 }
 .topphoto img {
 	display: block;
 }
 .topphoto {
-	position: relative;
 	color: #fff;
+	background: url(img/mainphoto.jpg);
+	background-size: cover;
 }
 .topphoto__textblock {
-	position: absolute;
-	top:225px;
-	left: 6.2%;
 	font-family: 'Hind', sans-serif;
+	padding: 230px 100px;
 }
 .topphoto__textblock p {
 	font-size: 18px;
@@ -78,6 +76,7 @@ header {
 	display: flex;
 	justify-content: space-between;
 	background-color: #f7f7f7;
+	flex-wrap: wrap;
 }
 .signup_form p {
 	font-family: 'Montserrat', sans-serif;
@@ -110,8 +109,9 @@ input[type="submit"] {
 
 
 
-
-
 @media screen and (max-width:768px) {
 
+	.topphoto__textblock {
+		padding: 110px 50px;
+	}
 }
