@@ -74,17 +74,22 @@ main {
 	font-size: 40px;
 	letter-spacing: 5.5px;
 }
+.signup {
+	margin-bottom: 77px;
+}
 .signup_form {
 	padding: 30px;
 	display: flex;
 	justify-content: space-between;
 	background-color: #f7f7f7;
+	align-items: center;
 }
 .signup_form p {
 	font-family: 'Montserrat', sans-serif;
 	line-height: 28px;
 	font-size: 20px;
 	letter-spacing: 6px;
+	margin: 0;
 }
 .signup_form input {
 	height: 50px;
@@ -108,6 +113,37 @@ input[type="submit"] {
 	font-size: 14px;
 	cursor: pointer;
 }
+.main__cardblock-row1 {
+}
+.row1__item-penicon {
+	background-color: #000;
+	padding: 10px 15px 10px 13px;
+}
+.row1__item {
+	max-width: 360px;
+	padding: 65px 35px 25px 35px;
+	border:1px solid #f1f1f3;
+	text-align: center;
+}
+.glyphicon {
+	color: white;
+}
+.cardGrayFont {
+	font-family: 'Hind', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #999999;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
