@@ -133,7 +133,6 @@ input[type="submit"] {
 	max-height: 400px;
 }
 .row1__item {
-	display: inline-block;
 	max-height: 520px;
 	width: 360px;
 	border:1px solid #f1f1f3;
