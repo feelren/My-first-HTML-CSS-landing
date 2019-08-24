@@ -129,6 +129,7 @@ input[type="submit"] {
 	display: inline-block;
 	width: 100%;
 	margin-bottom: 1em;
+	min-width: 210px;
 }
 .row1__item-photo {
 	width: 100%;
@@ -238,6 +239,9 @@ input[type="submit"] {
 	.row1__item {
 		margin-right: 0;
 	}
+	.main__cardblock-row1 {
+		margin: 0 2%;
+	}
 }
 @media screen and (max-width:1366px) {
 	header {
@@ -274,6 +278,11 @@ input[type="submit"] {
 		width: 180px;
 	}
 }
+@media screen and (max-width:896px) {
+	.main__cardblock-row1 {
+	column-count: 3;
+	}
+}
 @media screen and (max-width:858px) {
 	.signup_form {
 		flex-direction: column;
@@ -288,6 +297,12 @@ input[type="submit"] {
 	.signup_form input {
 		width: 75%;
 	}
+	
+}
+@media screen and (max-width:664px) {
+	.main__cardblock-row1 {
+		column-count: 2;
+	}
 }
 @media screen and (max-width:590px) {
 	.header__container-nav {
@@ -301,6 +316,12 @@ input[type="submit"] {
 		font-size: 25px;
 		letter-spacing: 2px;
 		line-height: 1.2;
+	}
+}
+@media screen and (max-width:460px) {
+	.main__cardblock-row1 {
+	column-count: 1;
+	margin: 0 10px;
 	}
 }
 @media screen and (max-width:414px) {
