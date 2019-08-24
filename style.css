@@ -149,6 +149,22 @@ input[type="submit"] {
 	position: relative;
 	padding: 59px 34px 22px 34px;
 }
+
+.dark {
+	background-color: #212429;
+}
+.dark h4 {
+	color: #fff;
+}
+.dark .itemParagraph {
+	color:#fff;
+}
+.dark .readmore {
+	color: #fff;
+}
+.dark hr {
+	opacity: 0.2;
+}
 /*.row1__item:last-of-type {
 	margin-right: 0;
 }*/
