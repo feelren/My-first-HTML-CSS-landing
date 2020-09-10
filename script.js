@@ -1,2 +1,2 @@
-let userName = prompt('Привет! Как тебя зовут?');
-alert(`Привет, ${userName}!)`)
+// let userName = prompt('Привет! Как тебя зовут?');
+// alert(`Привет, ${userName}!)`)
